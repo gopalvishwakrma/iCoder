@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Support Us</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <style>
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container justify-content-center align-items-center my-5">
+        <h1>Support Us</h1>
+        <p>We appreciate your support for our website. Please fill out the form below and click submit.</p>
+        <form id="support-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" class="form-control" id="amount"
+                    placeholder="Enter the amount you want to support us with" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="thank-you-popup">
+        <span class="close" id="close-popup">×</span>
+        <h2>Thank You!</h2>
+        <p>We have received your support. We are grateful for your generosity and kindness.</p>
+    </div>
+
+    <!-- Custom JS -->
+    <script>
+        // Get the form element
+        var form = document.getElementById("support-form");
+        // Get the popup element
+        var popup = document.getElementById("thank-you-popup");
+        // Get the close button element
+        var close = document.getElementById("close-popup");
+        // Add an event listener to the form submit event
+        form.addEventListener("submit", function (event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            // Show the popup
+            popup.style.display = "block";
+            // Clear the form inputs
+            form.reset();
+        });
+        // Add an event listener to the close button click event
+        close.addEventListener("click", function () {
+            // Hide the popup
+            popup.style.display = "none";
+        });
+    </script>
+</body>
+
+</html>

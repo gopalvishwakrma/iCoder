@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>iCoder / about</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-0 m-0 border-0 bd-example m-0 border-0">
+
+    <!-- Example Code -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Website1.html">iCoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Website1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Database management</a></li>
+                            <li><a class="dropdown-item" href="#">Software engineering</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="support.html">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write for Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">Contact Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section: Contact v.2-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<div id="contact" class="contact-area section-padding my-5">
+	<div class="container">										
+		<div class="section-title text-center">
+			<h1>Contact Us</h1>
+		</div>					
+		<div class="row">
+			<div class="col-lg-7">	
+				<div class="contact">
+					<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+						<div class="row">
+							<div class="form-group col-md-6">
+								<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+							</div>
+							<div class="form-group col-md-12">
+								<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+							</div>
+							<div class="form-group col-md-12">
+								<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+							</div>
+							<div class="col-md-12 text-center">
+								<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg bg-success" title="Submit Your Message!">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><!--- END COL --> 
+			<div class="col-lg-5">
+				<div class="single_address">
+					<i class="fa fa-map-marker"></i>
+					<h4>Our Address</h4>
+					<p>3481 Melrose Place, Beverly Hills</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-envelope"></i>
+					<h4>Send your message</h4>
+					<p>Info@example.com</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-phone"></i>
+					<h4>Call us on</h4>
+					<p>(+91) 517 397 7100</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-clock-o"></i>
+					<h4>Work Time</h4>
+					<p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p>
+				</div>					
+			</div><!--- END COL --> 
+		</div><!--- END ROW -->
+	</div><!--- END CONTAINER -->	
+</div>
+<!--Section: Contact v.2-->
+</body>
+</html>
