@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>iCoder -- Heaven for programmers</title>
+    <style>
+        body {
+            background-color: #ebebf0;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-0 m-0 border-0 bd-example m-0 border-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Website1.html">iCoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Database management</a></li>
+                            <li><a class="dropdown-item" href="#">Software engineering</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="support.html">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write for Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active .carousel-fade" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="carousel-fade" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="1jpg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to iCoder</h3>
+                    <p>Technology news, Development and trends</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success">Tech fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="2jpg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to iCoder</h3>
+                    <p>The Best Coding Blog</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success">Tech fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="3jpg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Award Winning Blog</h3>
+                    <p>Technology news, Development and trends</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Development</button>
+                    <button class="btn btn-success">Tech fun</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">Global Coding</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="thumnail1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">SynthVerse</strong>
+                        <h3 class="mb-0">Digital Explorer Experience</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="thumnail2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Technology</strong>
+                        <h3 class="mb-0">Artificial Intelligence</h3>
+                        <div class="mb-1 text-muted">Sep 30</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="thumnail3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Programming</h3>
+                        <div class="mb-1 text-muted">Oct 01</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="thumnail4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-md-8 blog-main">
+                <h3 class="pb-4 mb-4 font-italic border-bottom">
+                    From the Firehose
+                </h3>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Sample blog post</h2>
+                    <p class="blog-post-meta">January 1, 2014 by <a href="#">Gopal Vishwakarma</a></p>
+
+                    <p>We are excited to share valuable insights and updates with you through our blog. Stay tuned for
+                        engaging articles on various topics, ranging from technology and lifestyle to business and
+                        personal development.</p>
+                    <hr>
+                    <p>Our team is passionate about delivering high-quality content that informs, educates, and
+                        entertains. With a focus on providing valuable resources, our blog aims to inspire and empower
+                        readers.</p>
+                    <blockquote>
+                        <p>Whether you're seeking tips for professional growth, exploring the latest trends in your
+                            industry, or looking for lifestyle inspiration, our blog is here to cater to your interests
+                            and provide you with valuable information.</p>
+                    </blockquote>
+                    <p>We believe in the power of knowledge and aim to create a platform where you can enhance your
+                        understanding, discover new perspectives, and stay informed about the topics that matter to you.
+                        </h2>
+                    <p>Embrace new experiences and seize the opportunities that come your way. Life is an adventure,
+                        filled with twists and turns that shape who we become. Embrace the journey and cherish every
+                        moment.</p>
+                    <h3>Unlocking Your Potential</h3>
+                    <p>Discover your true potential and unleash the power within. With determination and perseverance,
+                        you can overcome any challenge and achieve greatness.</p>
+                    <p>Embrace change and embrace growth. Embrace diversity and embrace unity. Embrace the possibilities
+                        that lie ahead and let your dreams guide you towards a brighter future.</p>
+                    <h3>Embracing the Unknown</h3>
+                    <p>Take bold steps into the unknown, for that is where true discoveries are made. Embrace
+                        uncertainty, for it is the catalyst for growth and innovation. Embrace the journey and let it
+                        shape you.</p>
+                    <ul>
+                        <li>Embrace the beauty of the present moment.</li>
+                        <li>Embrace challenges as opportunities for growth.</li>
+                        <li>Embrace the power of collaboration and teamwork.</li>
+                    </ul>
+                    <p>Embrace the rhythm of life and dance to your own tune. Embrace your passions and pursue what sets
+                        your soul on fire. Embrace the world with an open heart and let the magic unfold.</p>
+                    <ol>
+                        <li>Embrace your uniqueness and celebrate your individuality.</li>
+                        <li>Embrace empathy and show kindness to others.</li>
+                        <li>Embrace the lessons learned from both successes and failures.</li>
+                    </ol>
+                    <p>Embrace the journey, for it is not just about the destination. Embrace the unknown, for it holds
+                        infinite possibilities. Embrace life, for it is a precious gift.</p>
+                </div><!-- /.blog-post -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Exploring New Horizons</h2>
+                    <p class="blog-post-meta">July 20, 2023 by <a href="#">Emily</a></p>
+                    <p>Embark on an exciting journey as we delve into uncharted territories and discover endless
+                        possibilities. With our latest innovation, we are pushing boundaries to bring you groundbreaking
+                        solutions that will transform the way you engage with technology.</p>
+                    <blockquote>
+                        <p>Curiosity drives progress. With an insatiable thirst for knowledge, we continuously strive to
+                            learn, adapt, and innovate. Embrace the spirit of exploration and let your imagination soar.
+                        </p>
+                    </blockquote>
+                    <p>Embracing the unknown, we forge ahead, fueled by passion and a commitment to excellence. Our team
+                        of experts is dedicated to delivering remarkable experiences that exceed expectations.</p>
+                    <p>Join us on this exhilarating voyage, where we challenge conventions and redefine what's possible.
+                        Together, let's create a future where innovation knows no bounds.</p>
+                </div><!-- /.blog-post -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Introducing Our New Feature</h2>
+                    <p class="blog-post-meta">July 15, 2023 by <a href="#">John</a></p>
+                    <p>We are thrilled to announce the launch of our latest feature that will revolutionize your online
+                        experience. This cutting-edge addition is designed to enhance usability and provide you with
+                        even more functionality.</p>
+                    <ul>
+                        <li>Experience seamless navigation with our intuitive user interface.</li>
+                        <li>Unlock new possibilities with advanced customization options.</li>
+                        <li>Enjoy improved performance and faster load times.</li>
+                    </ul>
+                    <p>Our dedicated team has worked tirelessly to ensure that this feature exceeds your expectations.
+                        We believe it will greatly enhance your overall satisfaction and productivity while using our
+                        platform.</p>
+                    <p>Feel free to explore and make the most of this new feature. We are confident that it will bring a
+                        positive impact to your online journey.</p>
+                    <p>Thank you for your continuous support and valuable feedback. We are committed to providing you
+                        with the best experience possible.</p>
+                </div><!-- /.blog-post -->
+
+                <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="#">Older</a>
+                    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+                </nav>
+
+            </div><!-- /.blog-main -->
+
+            <aside class="col-md-4 blog-sidebar">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="font-italic">About</h4>
+                    <p class="mb-0">Welcome to our website! We are passionate about providing valuable information and
+                        resources to help you navigate the ever-evolving world of technology. Explore our content and
+                        embark on a journey of discovery and learning.</p>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Archives</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://github.com/gopalvishwakrma">GitHub</a></li>
+                        <li><a href="https://twitter.com/gopalvish1510">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100065195851292">Facebook</a></li>
+                    </ol>
+                </div>
+            </aside><!-- /.blog-sidebar -->
+
+        </div><!-- /.row -->
+
+    </main>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://vishwakaramagopalcs222343@gmail.com.com/">gopalvish1510</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
